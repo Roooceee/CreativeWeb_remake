@@ -1,0 +1,298 @@
+/* normalisation de la page */
+*{
+    font-family: "Work Sans";
+    margin: 0;
+    color: #333;
+    text-decoration: none;
+}
+* p address {
+    font-size: 15px;
+    font-weight: 300;
+}
+* h1 {
+    font-size: 33px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+* h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+* img {
+    width: 100%;
+}
+/* fin normalisation de la page */
+
+/* css globale */
+.petittrait {
+    border-bottom: 1px solid #333;
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+hr {
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
+/* fin css global */
+
+/* début du css header */
+.logo {
+    width: 36px;
+}
+header {
+    margin: auto;
+    max-width: 1120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul {
+    gap: 50px;
+    display: flex;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 16px;
+}
+/* fin du css header */
+
+/* début du css main */
+main {
+    margin:auto;
+    max-width: 1120px;
+    margin-top: 100px;
+}
+
+/* début css  main index*/
+#index h1 {
+    text-align: center;
+}
+#index >h1 a {
+    text-decoration: none;
+}
+#index h2 {
+    text-align: center;
+}
+#mainlogo {
+    margin: auto;
+    margin: 100px 20px 100px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+/* fin css main index */
+
+/* début css main blog */
+.imagearticle {
+    width: 100%;
+}
+.imageauthor {
+    width: 50px;
+    border-radius: 100%;
+}
+.postinfo {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.creatorarticle {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.date {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.nombrescommentaires {
+    display: flex;
+    align-items: center;
+}
+.nombrescommentaires img {
+    margin-right: 5px;
+}
+.logocommentaire {
+    width: 15px;
+}
+main p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+main aside {
+    margin-left: 50px;
+    padding-left: 50px;
+    border-left: 1px solid black;
+}
+.imageprofil {
+    width: 150px;
+    border-radius: 100%;
+}
+.postendinfo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+}
+.postendinfo div {
+    margin-left: 50px;
+}
+.commentaires {
+    display: grid;
+}
+.uncommentaire {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.uncommentaire div {
+    margin-left: 50px;
+}
+.commenter textarea {
+    max-width: 100%;
+    min-height: 100px;
+}
+.champ {
+    display: grid;
+    gap: 10px;
+}
+.commenter {
+    justify-content: flex-start;
+}
+.buttonenvoyer {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    border-radius: 30px;
+    min-height: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* fin css blog */
+
+.contact h1 {
+    text-align: center;
+}
+.contact h2 {
+    text-align: center;
+}
+
+/* début css contact */
+
+.formcontact1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.formcontact textarea {
+    margin-top: 20px;
+    min-width: 100%;
+    min-height: 100px;
+}
+/* fin du css contact */
+
+/* début css ourstudio */
+.ourstudio>h1 {
+    text-align: center;
+}
+
+.ourstudio>h2 {
+    text-align: center;
+}
+
+.magnetstudio {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 2fr 1fr;
+    gap: 50px;
+}
+
+.listes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+}
+/* fin css ourstudio */
+
+/* début css projects */
+.projects h1,h2, p  {
+    text-align: center;
+}
+
+.projects a {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+
+.projects a>img {
+    width: 10px;
+    margin-right: 5px ;
+}
+
+.imageproject {
+    margin-top: 20px;
+}
+
+.imagegrille2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.infoimageproject {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-bottom: 20px ;
+}
+
+.projectmanager {
+    margin-bottom: 100px;
+    font-weight: bold;
+}
+
+
+
+/* fin du css main  */
+
+/* début du css footer  */
+footer {
+    margin: auto;
+    max-width: 1120px;
+}
+#footer1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+    padding: 25px 0px 25px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+#footer2 {
+    display: flex;
+    justify-content: space-between;
+}
+#social {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.sociallogo {
+    width: 10px;
+    color: #333;
+}
+/* fin du css footer */
+
+
+/* Début Responsive */
